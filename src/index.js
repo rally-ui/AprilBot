@@ -59,7 +59,7 @@ client.on("interactionCreate", (interaction) => {
   }
 
   if (interaction.commandName === "hey") {
-    interaction.reply("hey!");
+    interaction.reply("hey");
   }
   if (interaction.commandName === "ping") {
     interaction.reply("<@679497235125370900>");
